@@ -1,0 +1,9 @@
+Autofocus data dump for EEPROM holi_jk_hi1336_eeprom
+
+Macro dac = 773
+Infinity dac = 340
+Macro margin = 0.200000
+Infinity margin = -0.300000
+Hall offset bias = 0
+Hall register addr = 0
+Lens Calibration Data: numberOfDistances: 0

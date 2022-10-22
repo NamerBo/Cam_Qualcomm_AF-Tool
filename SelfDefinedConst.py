@@ -1,0 +1,73 @@
+
+
+class SelfDefinedConst:
+    class SelfDefinedConstError(TypeError):pass
+    class SelfDefinedConstCaseError(SelfDefinedConstError):pass
+
+    def __setattr__(self, key, value):
+        if key in self.__dict__:
+            raise  self.SelfDefinedConstError("can't change const %s"%key)
+        if not key.isupper():
+            raise self.SelfDefinedConstCaseError('const name "%s" is not all uppercase'%key)
+        self.__dict__[key] = value
+
+buttonConst = SelfDefinedConst()
+buttonConst.CAL_BUTTON = 2
+buttonConst.SAVE_PATH_BUTTON = 3
+buttonConst.PULL_RAW_BUTTON = 4
+buttonConst.PULL_PICTURES_BUTTON = 5
+buttonConst.PULL_LOG_BUTTON = 6
+buttonConst.LOG_SELECT_FILE_BUTTON = 8
+buttonConst.EN_DUMP_BUTTON = 17
+buttonConst.CLEAR_DUMP_RAW_BUTTON = 18
+buttonConst.CLEAR_NVRAM_BUTTON = 19
+buttonConst.SWITCH_CAMERA_BUTTON = 20
+buttonConst.CAM_INFO_BUTTON = 21
+buttonConst.DP_ENABLE_BUTTON = 23
+buttonConst.CLEAR_IMAGE_BUTTON = 26
+buttonConst.AF_LOG_EN_BUTTON = 27
+buttonConst.AF_LOGCAT_BUTTON = 28
+buttonConst.FULLSCAN_DISABLE_BUTTON = 29
+buttonConst.FULLSCAN_EN_BUTTON = 30
+buttonConst.HW_STATISTIC_EN_BUTTON = 31
+buttonConst.PDAF_LOG_EN_BUTTON = 32
+#AF const
+buttonConst.AF_OTP_INFO_PULL_BUTTON = 35
+buttonConst.AF_OTP_DRIVER_CHECK_ENABLE_DATA_COLLECT_BUTTON = 36
+buttonConst.AF_ACC_GYRO_DRIVER_CHECK_ENABLE_DATA_COLLECT_BUTTON = 37
+buttonConst.AF_PD_DRIVER_CHECK_ENABLE_DATA_COLLECT_BUTTON = 38
+buttonConst.AF_FV_STABLE_TIME_CHECK_ENABLE_DATA_COLLECT_BUTTON = 39
+buttonConst.AF_OTP_LINEARITY_CHECK_ENABLE_DATA_COLLECT_BUTTON = 40
+buttonConst.AF_PD_CALI_CHECK_ENABLE_DATA_COLLECT_BUTTON = 41
+buttonConst.AF_PDCALI_PRECK_MOVE_LENS_BUTTON = 42
+buttonConst.AF_PD_CALI_DISABLE_MANUAL_MOVE_LENS_BUTTON = 43
+buttonConst.AF_TILT_CHECK_ENABLE_DATA_COLLECT_BUTTON = 44
+buttonConst.AF_TABLE_DO_FULL_SCAN_BUTTON = 45
+buttonConst.AF_HW_THRESHOLD_CALCULATE_BUTTON = 46
+buttonConst.AF_POSTURE_COMP_DO_FULLSCAN_BUTTON=47
+buttonConst.AF_LOGANALYSIS_OPEN_WITH_TEXTANALYSISTOOL=48
+buttonConst.AF_ZOOM_EFFECT_SET_TO_ZSD_PREVIEW_BUTTON = 55
+buttonConst.AF_ZOOM_EFFECT_CAP_IMAGE1_BUTTON = 56
+buttonConst.AF_ZOOM_EFFECT_CAP_IMAGE2_BUTTON = 57
+buttonConst.AF_PLAF_CALI_TRIGGER_CAF_BUTTON = 58
+buttonConst.AF_LOG_WITH_WATERMARK_EN_BUTTON = 63
+buttonConst.CLEAR_NVRAM_LOGS_BUTTON = 64
+buttonConst.PULL_MIND_PATH_BUTTON = 65
+buttonConst.SET_NVRAM_PATH_PULLING_DATA_BUTTON = 66
+buttonConst.AF_PARAMETER_EFFECTIVE_PATH_BUTTON = 67
+buttonConst.AF_PERFORMANCE_PRECHECK_ENABLE_BUTTON = 68
+buttonConst.AF_PDCALI_PRECHECK_GEN_10STEP_BUTTON = 69
+buttonConst.AF_PDCALI_SELECT_SINGLE_LOG_FILE_BUTTON = 70
+buttonConst.AF_PDCALI_SELECT_LOGS_FOLDER_BUTTON = 71
+buttonConst.AF_LOG_EXTRACT_OTP_DRVIER_CHECK_BUTTON = 72
+buttonConst.AF_LOG_EXTRACT_ACCGYRO_DRIVER_CHECK_BUTTON = 73
+buttonConst.AF_LOG_EXTRACT_PD_DRIVER_CHECK_BUTTON = 74
+buttonConst.AF_LOG_EXTRACT_PARAMETER_CODE_PATH_BUTTON = 75
+buttonConst.AF_LOG_EXTRACT_PERFORMANCE_CONFIRM_BUTTON = 76
+buttonConst.AF_LOG_EXTRACT_PDCALI_CHECK_BUTTON = 77
+
+buttonConst.DEFAULT_BUTTONTIP_TIME_DELAY = 2000
+buttonConst.DEFAULT_BUTTONTIP_OFFSET_X = 0
+buttonConst.DEFAULT_BUTTONTIP_OFFSET_Y = 0
+buttonConst.BUTTONTIP_BACKGROUND_COLOR = "white"
+buttonConst.BUTTONTIP_FONT = ('楷体', 14)

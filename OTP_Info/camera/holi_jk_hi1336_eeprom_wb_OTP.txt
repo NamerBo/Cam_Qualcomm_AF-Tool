@@ -1,0 +1,6 @@
+Whitebalance data dump for EEPROM holi_jk_hi1336_eeprom
+
+Light Type: D50 
+  rOverG   = 0.510742
+  bOverG   = 0.571289
+  grOverGB = 1.004883

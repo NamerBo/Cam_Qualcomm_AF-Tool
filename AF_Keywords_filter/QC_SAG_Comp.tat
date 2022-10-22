@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="lens pos" />
+    <filter enabled="n" excluding="n" description="" backColor="f08080" type="matches_text" case_sensitive="n" regex="n" text="cur pos" />
+    <filter enabled="n" excluding="n" description="" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="n" text="af_util_calculate_lens_sag_comp CID:[0] " />
+    <filter enabled="n" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="af_single_orientation_tunning" />
+    <filter enabled="n" excluding="n" description="" backColor="778899" type="matches_text" case_sensitive="n" regex="n" text="macro" />
+    <filter enabled="n" excluding="n" description="" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="af_haf_follower.cpp" />
+    <filter enabled="n" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="exp_index" />
+    <filter enabled="n" excluding="n" description="" backColor="add8e6" type="matches_text" case_sensitive="n" regex="n" text="spotlight" />
+    <filter enabled="n" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="sensor" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="macro" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][SENSOR ] " />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text=" af_map_output_params CID:" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="distance" />
+  </filters>
+</TextAnalysisTool.NET>

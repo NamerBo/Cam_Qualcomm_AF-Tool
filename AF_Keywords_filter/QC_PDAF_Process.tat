@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="n" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="openCamera" />
+    <filter enabled="n" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="closeCamera" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getcameraidindex" />
+    <filter enabled="n" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="af_caf_process_monitor" />
+    <filter enabled="n" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="af_haf_monitor" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Input ROI: type" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="af_value_monitor_get_trigger" />
+    <filter enabled="n" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="is_defocused=TRUE" />
+    <filter enabled="n" excluding="n" description="" backColor="f08080" type="matches_text" case_sensitive="n" regex="n" text="CAF_is_panning" />
+    <filter enabled="n" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text=" refocus TRUE" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="is_trig_refocus 1" />
+    <filter enabled="y" excluding="n" description="重新触发对焦" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="HAF_STATE_CHANGE to SEARCH" />
+    <filter enabled="y" excluding="n" description="" foreColor="000000" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="af_haf_util_change_state" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="0lens_pos:" />
+    <filter enabled="n" excluding="n" description="fv" type="matches_text" case_sensitive="n" regex="n" text="af_process_parse_bayer_fw_stats" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="af_process_parse_stats CAF_SCAN_parse_stats fv:" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="af_process_update_fv_history" />
+    <filter enabled="n" excluding="n" description="pd使能" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_process_monitor" />
+    <filter enabled="n" excluding="n" description="" backColor="778899" type="matches_text" case_sensitive="n" regex="n" text="af_haf_process" />
+    <filter enabled="y" excluding="n" description="移动每一步" type="matches_text" case_sensitive="n" regex="n" text="af_haf_util_move_lens_to_dest" />
+    <filter enabled="n" excluding="n" description="target和current pos" type="matches_text" case_sensitive="n" regex="n" text="af_haf_default_mixer" />
+    <filter enabled="n" excluding="n" description="每帧算法状态" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="af_haf_process state:" />
+    <filter enabled="y" excluding="n" description="confidence" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_proc_pd_single grid(0)" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="range_near" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="fine search" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="inc_dec" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="y" regex="n" text="af_caf_util_get_value i:" />
+    <filter enabled="n" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="converge_done" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="Go_to_dest" />
+    <filter enabled="n" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="af_caf_util_curve_fit" />
+    <filter enabled="n" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="AF_HAF_SEARCH_DONE" />
+    <filter enabled="n" excluding="n" description="caf curve fitting" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_calc_curve_fitting" />
+    <filter enabled="n" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="af_haf_util_end_search" />
+    <filter enabled="n" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="af_haf_util_move_lens_to_dest" />
+    <filter enabled="n" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="takePicture" />
+    <filter enabled="n" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="direct take pic" />
+    <filter enabled="y" excluding="n" description="拍照动作" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="capturestillp" />
+    <filter enabled="n" excluding="n" description="存图动作" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="sdcard" />
+  </filters>
+</TextAnalysisTool.NET>

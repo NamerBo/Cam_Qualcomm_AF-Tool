@@ -1,0 +1,5 @@
+enable3ADebugData=TRUE
+logInfoMask=0x8000000
+logVerboseMask=0x8000000
+logWarningMask=0x8000000
+logEntryExitMask=0x8000000
